@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2017" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "lib": ["ES2020", "DOM"],
+
+    "module": "ESNext" /* Specify what module code is generated. */,
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+    "strict": true /* Enable all strict type-checking options. */,
+    "outDir": "./dist/lib/es6",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "declaration": true
+  },
+  "include": ["src/**/*"]
+}

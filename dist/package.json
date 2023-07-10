@@ -1,0 +1,17 @@
+{
+  "name": "@abortable/abortpromise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffect": false,
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "dev": "tsc src/index.ts && node ./src/index.js",
+    "compile": "tsc && tsc --build tsconfig.es5.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
